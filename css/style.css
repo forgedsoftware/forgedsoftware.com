@@ -1,0 +1,35 @@
+@import "basestyle.css";
+@import "smallheaderstyle.css" screen and (max-width: 45em);
+
+body {
+	background-image: url("../images/forge.jpg");
+}
+
+@media screen and (max-width: 45em) {
+	.picture {
+		width: 100%;
+	}
+}
+
+/************Header**************/
+
+#header-container {
+	background-color: #660000;
+}
+
+#header-content ul li ul li {
+	background-color: #660000;
+}
+
+@media screen and (max-width: 45em) {
+
+	#header-content {
+		background-color: #660000;
+	}
+
+	#header-content ul li:hover {
+		background-color: #660000;
+	}
+}
+
+/************End Header**************/
